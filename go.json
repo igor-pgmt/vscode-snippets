@@ -1,0 +1,36 @@
+{
+	"pln": {
+		"prefix": "pln",
+		"body": [
+			"fmt.Println(${0})",
+		],
+		"description": "fmt.Println()"
+	},
+	"main package template": {
+		"prefix": "tmain",
+		"body": [
+			"package main\n",
+			"import \"fmt\"\n",
+			"func main() {\n",
+			"${0}\n",
+			"}"
+		],
+		"description": "main package template"
+	},
+	"fmt.Println(/---/)": {
+		"prefix": "pl-",
+		"body": [
+			"fmt.Println(\"/---------------------------------/\")",
+			"${0}"
+		],
+		"description": "fmt.Println(/---/)"
+	},
+	"Println and exit": {
+		"prefix": "plexit",
+		"body": [
+			"fmt.Println(${0})",
+			"os.Exit(1)"
+		],
+		"description": "Println and exit"
+	}
+}
