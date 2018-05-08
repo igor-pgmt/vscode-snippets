@@ -6,6 +6,13 @@
 		],
 		"description": "fmt.Println()"
 	},
+	"pl2": {
+		"prefix": "pl2",
+		"body": [
+			"fmt.Println(\"${0}:\",${0})",
+		],
+		"description": "fmt.Println()"
+	},
 	"main package template": {
 		"prefix": "tmain",
 		"body": [
