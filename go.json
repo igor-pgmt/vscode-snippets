@@ -13,6 +13,20 @@
 		],
 		"description": "fmt.Println()"
 	},
+	"plg": {
+		"prefix": "plg",
+		"body": [
+			"log.Println(${0})",
+		],
+		"description": "log.Println()"
+	},
+	"plg2": {
+		"prefix": "plg2",
+		"body": [
+			"log.Println(\"${0}:\",${0})",
+		],
+		"description": "log.Println()"
+	},
 	"main package template": {
 		"prefix": "tmain",
 		"body": [
